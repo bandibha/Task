@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.screen {
+  text-align: center;
+}
+
+#quiz {
+  margin-top: 20px;
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.options {
+  list-style: none;
+  padding: 0;
+}
+
+.options li {
+  background: #f2f2f2;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.options li:hover {
+  background: #dceefc;
+}
+
+.feedback {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.final-screen {
+  margin-top: 20px;
+}
